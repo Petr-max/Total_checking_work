@@ -42,7 +42,6 @@ string[] ArrayTwo = ModifiedArray(array, lengthLines, sizeModifiedArray);
 PrintArray(array);
 Console.Write(" -> ");
 PrintArray(ArrayTwo);
-
 void PrintArray(string[] array)
 {
   Console.Write("[");
@@ -53,7 +52,6 @@ void PrintArray(string[] array)
   }
   Console.Write("]");
 }
-
 int SizeModifiedArray(string[] array, int lengthLines)
 {
   int count = 0;
@@ -64,7 +62,6 @@ int SizeModifiedArray(string[] array, int lengthLines)
   }
   return count;
 }
-
 string[] ModifiedArray(string[] array, int lengthLines, int sizeNewArray)
 {
   string[] newArray = new string[sizeNewArray];
